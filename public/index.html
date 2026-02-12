@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PokéRare — Магазин карточек Pokémon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Unbounded:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow"></div>
+    <header class="hero">
+      <nav class="nav">
+        <span class="logo">PokéRare</span>
+        <button id="cartButton" class="cart-button">🛒 Корзина <span id="cartCount">0</span></button>
+      </nav>
+      <div class="hero-content">
+        <h1>Премиум магазин карточек Pokémon</h1>
+        <p>Редкие карты, честные цены, быстрая доставка и безопасное оформление заказа.</p>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="filters glass">
+        <h2>Фильтры</h2>
+        <label>Поиск <input id="searchInput" placeholder="Например: Charizard" /></label>
+        <label>Тип <select id="typeFilter"><option value="">Все</option></select></label>
+        <label>Редкость <select id="rarityFilter"><option value="">Все</option></select></label>
+        <label>Сортировка
+          <select id="sortFilter">
+            <option value="featured">Рекомендованные</option>
+            <option value="price_asc">Сначала дешевле</option>
+            <option value="price_desc">Сначала дороже</option>
+            <option value="name">По названию</option>
+          </select>
+        </label>
+      </aside>
+
+      <section>
+        <div id="stats" class="stats"></div>
+        <div id="catalog" class="catalog"></div>
+      </section>
+    </main>
+
+    <dialog id="cartModal" class="cart-modal glass">
+      <h3>Корзина</h3>
+      <div id="cartItems"></div>
+      <div id="cartTotal" class="cart-total"></div>
+      <form id="checkoutForm" class="checkout-form">
+        <input name="name" placeholder="Имя" required minlength="2" />
+        <input name="email" placeholder="Email" type="email" required />
+        <textarea name="address" placeholder="Адрес доставки" required minlength="8"></textarea>
+        <button type="submit">Оформить заказ</button>
+      </form>
+      <button id="closeCart" class="secondary">Закрыть</button>
+    </dialog>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
