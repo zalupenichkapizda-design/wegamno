@@ -1,0 +1,14 @@
+[
+  {"id":"base-001","name":"Charizard Holo","type":"Fire","rarity":"Ultra Rare","price":249.99,"stock":4,"image":"https://images.pokemontcg.io/base1/4_hires.png","description":"Легендарный Charizard из Base Set в идеальном состоянии."},
+  {"id":"neo-007","name":"Lugia Neo Genesis","type":"Psychic","rarity":"Secret Rare","price":319.5,"stock":3,"image":"https://images.pokemontcg.io/neo1/9_hires.png","description":"Культовая карта Lugia с эффектным артом."},
+  {"id":"swsh-015","name":"Pikachu VMAX","type":"Lightning","rarity":"Rare Holo VMAX","price":89.9,"stock":12,"image":"https://images.pokemontcg.io/swsh4/44_hires.png","description":"Яркая коллекционная карта Pikachu VMAX."},
+  {"id":"sv-022","name":"Mew ex","type":"Psychic","rarity":"Double Rare","price":47.5,"stock":18,"image":"https://images.pokemontcg.io/sv1/151_hires.png","description":"Сильный Mew ex для колоды и коллекции."},
+  {"id":"xy-031","name":"Gengar EX","type":"Psychic","rarity":"Ultra Rare","price":138,"stock":7,"image":"https://images.pokemontcg.io/xy4/34_hires.png","description":"Грозный Gengar EX с редким сиянием."},
+  {"id":"sm-041","name":"Blastoise GX","type":"Water","rarity":"Hyper Rare","price":159.75,"stock":5,"image":"https://images.pokemontcg.io/sm12/218_hires.png","description":"Золотая версия Blastoise GX для премиум коллекции."},
+  {"id":"evs-052","name":"Rayquaza VMAX","type":"Dragon","rarity":"Rare Rainbow","price":205,"stock":4,"image":"https://images.pokemontcg.io/swsh7/217_hires.png","description":"Rayquaza VMAX rainbow — топ среди современных сетов."},
+  {"id":"cz-064","name":"Darkrai VSTAR","type":"Darkness","rarity":"Rare Holo VSTAR","price":42.2,"stock":20,"image":"https://images.pokemontcg.io/swsh12pt5/99_hires.png","description":"Мощный Darkrai VSTAR с отличной ликвидностью."},
+  {"id":"pal-071","name":"Gardevoir ex","type":"Psychic","rarity":"Special Illustration Rare","price":113.4,"stock":6,"image":"https://images.pokemontcg.io/sv2/245_hires.png","description":"Коллекционный Gardevoir ex с альтернативным артом."},
+  {"id":"obs-083","name":"Ninetales Illustration Rare","type":"Fire","rarity":"Illustration Rare","price":36.8,"stock":15,"image":"https://images.pokemontcg.io/sv3/199_hires.png","description":"Элегантный Ninetales из Obsidian Flames."},
+  {"id":"par-096","name":"Roaring Moon ex","type":"Darkness","rarity":"Special Illustration Rare","price":127.3,"stock":5,"image":"https://images.pokemontcg.io/sv4/251_hires.png","description":"Roaring Moon ex с топовым дизайном для коллекционеров."},
+  {"id":"mei-104","name":"Squirtle Illustration Rare","type":"Water","rarity":"Illustration Rare","price":58.6,"stock":11,"image":"https://images.pokemontcg.io/sv3pt5/170_hires.png","description":"Нежный Squirtle с акварельным стилем арта."}
+]

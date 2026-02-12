@@ -1,0 +1,11 @@
+{
+  "name": "wegamno",
+  "version": "1.0.0",
+  "description": "Pokemon card store",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js"
+  }
+}
